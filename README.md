@@ -15,3 +15,4 @@ For this bonus exercise, you'll be working with a subset of the full traffic acc
 11. What is the largest number of harmful codes for an accident? *7*
 12. Finally, it would be interesting to see how often each harmful code occurs. To do this, first, we should split the harmful code field into multiple fields. Do this at the end of the table for each month. There are two ways to accomplish this. First, you can try the TEXTSPLIT function. Another approach is to use the Text to Columns button in the Data tab.
 13. How often did each code occur during 2018? To answer this, first create a column for each month in the "Harmful Types" tab. Then use the COUNTIF function to count the number of occurrences per code. Write a formula which you can copy both across and down. Finally, create a total column where you count the total across all months. 
+ 
